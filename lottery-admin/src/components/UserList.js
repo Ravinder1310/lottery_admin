@@ -8,7 +8,7 @@ function UserList({ users }) {
             
             {users.map((user) => (
                 <div key={user._id} className='w-[90px] border border-gray-300 bg-white text-center shadow-lg'>
-                    <img className='w-full h-[100px]' src={`http://localhost:8085/${user.photo}`} alt={user.name}  />
+                    <img className='w-full h-[100px]' src={`https://ltback.rscjewells.shop/${user.photo}`} alt={user.name}  />
                     <h3 className='text-sm font-bold mt-4'>{user.name}</h3>
                     <p className='text-sm font-bold'>{user.mobile}</p>
                 </div>
